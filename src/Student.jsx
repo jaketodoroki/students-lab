@@ -3,6 +3,7 @@ const Student = ({student}) => {
     <>
     <div>
       <h1>{student.name}</h1>
+      <h2>{student.bio}</h2>
     </div>
     </>
   );
