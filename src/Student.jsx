@@ -1,6 +1,10 @@
-const Student = () => {
+const Student = ({student}) => {
   return ( 
-    <div>student</div>
+    <>
+    <div>
+      <h1>{student.name}</h1>
+    </div>
+    </>
   );
 }
  
