@@ -1,9 +1,11 @@
-const Score = (props) => {
+const Score = ({score}) => {
   return ( 
     <>
       <div>
-        <h4>Scores</h4>
-        <p>{}</p>
+          <div>
+            <li> score: {score.score},
+             date: {score.date}</li>
+          </div>
       </div>
     </>  
   );
